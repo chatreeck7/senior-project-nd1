@@ -3,7 +3,7 @@ import { HomeScreen, QuizScreen, ResultScreen } from "./screens";
 
 function App() {
   return (
-    <Router>
+    <Router basename={`/senior-project-nd1`}>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/result" element={<ResultScreen />} />
